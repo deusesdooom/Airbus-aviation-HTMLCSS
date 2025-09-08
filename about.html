@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Learn more about Airbus </title>
+    <link rel="stylesheet" href="planes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"`>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index2.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu"></i>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="index.html"> Fleet</a></li>
+                    <li><a href="index.html"> Safety</a></li>
+                    <li><a href="index.html"> Pilots</a></li>
+                    <li><a href="index.html"> Join Us</a></li>
+                </ul>
+            
+            </div>
+            <i class="fa fa-bars"Onclick="showMenu"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!--About us content-->
+<section class="about-us">
+    <div class="row"> 
+        <div class="about-col">
+            <h1>Naming</h1>
+            <p>Names are a very important part of branding and marketing. A name can guide customer orientation and provide consistency across a wider portfolio of products. A name can also give a product a greater meaning and differentiation vs. the competitive set.<br>Please find the document that will show you different approaches for name developments here (only available for Airbus employees). Furthermore, we would like to show you the most important considerations to follow in developing names.</p>
+            <a href="" class="hero-btn red-btn">Explore now</a>
+        </div>
+        <div class="about-col">
+            <h1>Trademark</h1>
+            <p>While a brand is a corporate image that builds over time and is a reputation of quality in the eyes of customers, a trademark is legal protection of the brand, granted by the Trademark and Patent Office.<br>Whereas a brand helps to identify the company and its products or services, the trademark helps to prevent competitors from stealing the brand image or creating substantially similar identities to create marketplace confusion.<br>To support you regarding trademark registrations, please send your request to the Brand Management team.</p>
+            <a href="" class="hero-btn red-btn">Explore now</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<section class="footer">
+    <h4> About Us</h4>
+    <p> Our brand is not just a sign, a logo or a colour. While these are elements of a brand, our brand is something much bigger and more valuable. It’s the sum of all our actions and decisions we make every day with the intent to be recognised. It is the reason why people choose us. It represents our ambition, our purpose, our products and services and the way these are delivered. Our brand comes to life through all our interactions. 
+        
+         </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+</section>
+
+
+
+
+    
+<!------------JavaScript------------>
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function HideMenu(){
+        navLinks.style.right ="-200PX";
+    }
+    
+    
+    
+    
+</script>
+</body>
+</html>
